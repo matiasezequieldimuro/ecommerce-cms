@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_property_additional_properties",
+  "info": {
+    "displayName": "additional_properties",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "data_type": {
+      "type": "enumeration",
+      "enum": [
+        "String",
+        "Date",
+        "Number"
+      ],
+      "default": "String",
+      "required": true
+    }
+  }
+}

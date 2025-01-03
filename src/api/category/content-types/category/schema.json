@@ -23,8 +23,13 @@
         }
       },
       "type": "string",
-      "unique": true,
-      "required": true
+      "required": true,
+      "unique": true
+    },
+    "sub_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
     }
   }
 }
